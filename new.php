@@ -1,7 +1,7 @@
 <?php
-if($_SERVER["REQUEST_METHOD"]=="put")
+if($_SERVER["REQUEST_METHOD"]=="post")
 {
-$username = $_put["name"];
-echo $username;
+$name = $_post["name"];
+echo "name: ". $username;
 }
 ?>
