@@ -1,7 +1,7 @@
 <?php
-if($_SERVER["REQUEST_METHOD"]=="post")
+if($_SERVER["REQUEST_METHOD"]=="get")
 {
-$name = $_post["name"];
+$name = $_get["name"];
 echo "name: ". $username;
 }
 ?>
